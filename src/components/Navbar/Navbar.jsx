@@ -4,6 +4,6 @@ import { MdOutlineRestaurantMenu } from "react-icons/md"
 
 import "./Navbar.css"
 
-const Navbar = () => <nav className="app_navbar"></nav>
+const Navbar = () => <nav className="app_navbar">NavBar</nav>
 
 export default Navbar

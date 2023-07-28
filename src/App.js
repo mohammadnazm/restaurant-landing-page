@@ -1,6 +1,4 @@
 import React from "react"
-import { GiHumbergerMenu } from "react-icons/gi"
-import { MdOutlineRestaurantMenu } from "react-icons/md"
 
 function App() {
   return (

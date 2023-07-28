@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react"
+import { GiHumbergerMenu } from "react-icons/gi"
+import { MdOutlineRestaurantMenu } from "react-icons/md"
 
-import './Navbar.css';
+import "./Navbar.css"
 
-const Navbar = () => (
-  <div>
-    Navbar
-  </div>
-);
+const Navbar = () => <nav className="app_navbar"></nav>
 
-export default Navbar;
+export default Navbar

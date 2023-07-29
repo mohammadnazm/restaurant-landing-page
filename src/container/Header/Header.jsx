@@ -14,6 +14,9 @@ const Header = () => (
         morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
         tellus
       </p>
+      <button type="button" className="custom__buttom">
+        Explore Menu
+      </button>
     </div>
     <div className="app__wrapper_img"></div>
   </div>

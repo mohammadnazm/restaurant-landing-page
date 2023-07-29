@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { MdOutlineRestaurantMenu } from "react-icons/md"
 import images from "../../constants/images"
 import "./Navbar.css"
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState()
+  const [toggleMenu, setToggleMenu] = useState()
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">

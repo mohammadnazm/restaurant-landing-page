@@ -30,6 +30,9 @@ const Navbar = () => (
       <a href="#login" className="p__opensans">
         Login / Register
       </a>
+      <a href="/" className="p__opensans">
+        Book Table
+      </a>
     </div>
   </nav>
 )

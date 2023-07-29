@@ -74,3 +74,13 @@
   flex-direction: column;
   z-index: 5;
 }
+
+.app__navbar-smallscreen_overlay .overlay_close {
+  font-size: 27px;
+  color: var(--color-golden);
+  cursor: pointer;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

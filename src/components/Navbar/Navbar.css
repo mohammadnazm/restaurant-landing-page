@@ -84,3 +84,13 @@
   top: 20px;
   right: 20px;
 }
+
+@media screen and (min-width: 1150px) {
+  .app__navbar-links {
+    display: none;
+  }
+
+  .app__navbar-smallscreen {
+    display: flex;
+  }
+}

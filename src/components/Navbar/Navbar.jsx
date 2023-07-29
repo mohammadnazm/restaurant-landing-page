@@ -34,6 +34,9 @@ const Navbar = () => (
         Book Table
       </a>
     </div>
+    <div className="app__navbar-smallscreen">
+      <GiHumbergerMenu color="#fff" fontSize="27" onClick={() => {}} />
+    </div>
   </nav>
 )
 

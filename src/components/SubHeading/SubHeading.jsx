@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react"
 
-const SubHeading = () => (
-  <div>
-    SubHeading
-  </div>
-);
+import { images } from "../../constants"
 
-export default SubHeading;
+const SubHeading = () => <div>SubHeading</div>
+
+export default SubHeading

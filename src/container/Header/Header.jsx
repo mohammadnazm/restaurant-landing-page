@@ -9,7 +9,11 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The key to Fine Dining</h1>
-      <p className="p__opensans" style={{ margin: "2rem 0" }}></p>
+      <p className="p__opensans" style={{ margin: "2rem 0" }}>
+        Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat
+        morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
+        tellus
+      </p>
     </div>
     <div className="app__wrapper_img"></div>
   </div>

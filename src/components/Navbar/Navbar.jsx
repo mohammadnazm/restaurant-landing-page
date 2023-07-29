@@ -36,6 +36,7 @@ const Navbar = () => (
     </div>
     <div className="app__navbar-smallscreen">
       <GiHamburgerMenu color="#fff" fontSize="27" onClick={() => {}} />
+      <div className="app__navbar-smallscreen-overly flex__center"
     </div>
   </nav>
 )

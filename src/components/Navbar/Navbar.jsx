@@ -36,7 +36,13 @@ const Navbar = () => (
     </div>
     <div className="app__navbar-smallscreen">
       <GiHamburgerMenu color="#fff" fontSize="27" onClick={() => {}} />
-      <div className="app__navbar-smallscreen-overly flex__center"
+      <div className="app__navbar-smallscreen-overly flex__center slide-bottom">
+        <MdOutlineRestaurantMenu
+          fontSize={27}
+          className="overly-close"
+          onClick={() => {}}
+        />
+      </div>
     </div>
   </nav>
 )

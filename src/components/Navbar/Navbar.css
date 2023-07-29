@@ -41,3 +41,9 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+.app__navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 0.5 ease;
+}

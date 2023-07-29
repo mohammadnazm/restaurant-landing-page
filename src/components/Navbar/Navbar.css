@@ -75,7 +75,7 @@
   z-index: 5;
 }
 
-.app__navbar-smallscreen_overlay .overlay_close {
+.app__navbar-smallscreen_overlay .overlay__close {
   font-size: 27px;
   color: var(--color-golden);
   cursor: pointer;

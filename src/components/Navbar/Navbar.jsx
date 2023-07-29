@@ -1,5 +1,5 @@
 import React from "react"
-import { GiHumbergerMenu } from "react-icons/gi"
+import { GiHamburgerMenu } from "react-icons/gi"
 import { MdOutlineRestaurantMenu } from "react-icons/md"
 import images from "../../constants/images"
 import "./Navbar.css"
@@ -35,7 +35,7 @@ const Navbar = () => (
       </a>
     </div>
     <div className="app__navbar-smallscreen">
-      <GiHumbergerMenu color="#fff" fontSize="27" onClick={() => {}} />
+      <GiHamburgerMenu color="#fff" fontSize="27" onClick={() => {}} />
     </div>
   </nav>
 )

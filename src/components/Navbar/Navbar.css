@@ -26,3 +26,8 @@
 
   list-style: none;
 }
+
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}

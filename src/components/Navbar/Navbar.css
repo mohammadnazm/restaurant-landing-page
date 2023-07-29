@@ -57,3 +57,17 @@
   height: 30px;
   background-color: var(--color-grey);
 }
+
+.app__navbar-smallscreen {
+  display: none;
+}
+
+.app__navbar-smallscreen_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-black);
+  transition: 0.5s ease;
+}

@@ -45,7 +45,7 @@ const Navbar = () => {
           }}
         />
         {toggleMenu && (
-          <div className="app__navbar-smallscreen-overlay flex__center slide-bottom">
+          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu
               fontSize={27}
               className="overlay__close"

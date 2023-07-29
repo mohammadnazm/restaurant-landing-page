@@ -47,3 +47,7 @@
   text-decoration: none;
   transition: 0.5 ease;
 }
+
+.app__navbar-login a:hover {
+  border-bottom: 1px solid var(--color-golden);
+}

@@ -48,7 +48,9 @@ const Navbar = () => {
           <MdOutlineRestaurantMenu
             fontSize={27}
             className="overlay__close"
-            onClick={() => {}}
+            onClick={() => {
+              setToggleMenu(false)
+            }}
           />
           <ul className="app__navbar-smallscreen-links">
             <li className="p__opensans">

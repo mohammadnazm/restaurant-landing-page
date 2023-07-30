@@ -13,6 +13,12 @@ const Chef = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Chefs word" />
       <h1 className="headtext__cormorant">What we believe in</h1>
+
+      <div className="app__chef-content">
+        <div className="app__chef-content_quote">
+          <img src={images.quote} alt="quote" />
+        </div>
+      </div>
     </div>
   </div>
 )

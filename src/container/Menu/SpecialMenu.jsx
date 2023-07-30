@@ -20,6 +20,7 @@ const SpecialMenu = () => {
               })}
             </div>
           </div>
+          <div className="app__specialMenu-menu_img"></div>
         </div>
       </div>
     </div>

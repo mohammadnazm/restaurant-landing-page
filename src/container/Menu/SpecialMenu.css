@@ -1,9 +1,13 @@
-.app__specailMenu {
+.app__specialMenu {
   flex-direction: column;
   background: var(--color-black);
 }
 
-.app__specailMenu-title {
+.app__specialMenu-title {
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.custom__button {
+  margin: 0 2rem;
 }

@@ -25,6 +25,9 @@
   font-family: var(--font-base);
   font-weight: 600;
   font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.04rem;
+  color: var(--color-white);
 }
 
 .app__specialMenu-menu_wine,

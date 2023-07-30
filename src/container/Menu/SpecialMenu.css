@@ -36,3 +36,8 @@
   width: 100%;
   flex-direction: column;
 }
+
+.app__specialMenu-menu_img {
+  width: 410px;
+  margin: 0 2rem;
+}

@@ -6,3 +6,19 @@
   position: absolute;
   inset: 0;
 }
+
+.app__aboutus-overlay img {
+  width: 391px;
+  height: 415px;
+  z-index: 0;
+}
+
+.app__aboutus-content_about {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: right;
+}

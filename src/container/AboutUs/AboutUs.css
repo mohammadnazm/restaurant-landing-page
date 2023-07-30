@@ -47,6 +47,9 @@
 }
 
 @media screen and (min-width: 2000px) {
+  .app__aboutus-content_knife img {
+    height: 1110px;
+  }
 }
 
 @media screen and (min-width: 900px) {

@@ -1,7 +1,7 @@
 import React from "react"
 
-import { data, images } from "../../constants"
 import { SubHeading, MenuItem } from "../../components"
+import { data, images } from "../../constants"
 import "./SpecialMenu.css"
 
 const SpecialMenu = () => (
@@ -12,7 +12,7 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine flex__center">
+      <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Wine & Beer</p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
@@ -25,24 +25,27 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+
       <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu img" />
+        <img src={images.menu} alt="menu__img" />
       </div>
-      <div className="app__specialMenu-menu_cocktails flex__center">
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Cocktails</p>
-        <div className="app__specialMenu-menu_items">
+        <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
               key={cocktail.title + index}
               title={cocktail.title}
-              cocktail={cocktail.price}
+              price={cocktail.price}
               tags={cocktail.tags}
             />
           ))}
         </div>
       </div>
     </div>
-    <div style={{ marginTop: "15px" }}>
+
+    <div style={{ marginTop: 15 }}>
       <button type="button" className="custom__button">
         View More
       </button>

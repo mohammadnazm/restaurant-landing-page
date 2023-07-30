@@ -1,0 +1,8 @@
+.app__specailMenu {
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.app__specailMenu-title {
+  margin-bottom: 2rem;
+}

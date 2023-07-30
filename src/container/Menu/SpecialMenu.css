@@ -28,7 +28,7 @@
 }
 
 .app__specialMenu-menu_wine,
-.app__specialMenu-menu_cocktail {
+.app__specialMenu-menu_cocktails {
   flex: 1;
   width: 100%;
   flex-direction: column;

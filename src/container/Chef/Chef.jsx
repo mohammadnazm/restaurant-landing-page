@@ -9,6 +9,11 @@ const Chef = () => (
     <div className="app__wrapper_img app__wrapper_img-reverse">
       <img src={images.chef} alt="chef" />
     </div>
+
+    <div className="app__wrapper_info">
+      <SubHeading title="Chefs word" />
+      <h1 className="headtext__cormorant">What we believe in</h1>
+    </div>
   </div>
 )
 

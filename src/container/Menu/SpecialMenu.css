@@ -69,4 +69,8 @@
   .app__specialMenu-menu-img {
     width: 100%;
   }
+
+  .app__specialMenu-menu_heading {
+    font-size: 35px;
+  }
 }

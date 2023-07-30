@@ -27,6 +27,9 @@ const Chef = () => (
           lectus eu. Congue iaculis integer curabitur semper sit nunc.
         </p>
       </div>
+      <div className="app__chef-sign">
+        <p>Kevin Luo</p>
+      </div>
     </div>
   </div>
 )

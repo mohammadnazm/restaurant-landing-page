@@ -29,4 +29,6 @@
   font-size: 32;
   line-height: 41px;
   letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
 }

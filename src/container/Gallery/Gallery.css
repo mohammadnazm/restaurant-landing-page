@@ -45,4 +45,9 @@
   position: relative;
   min-width: 301px;
   height: 447px;
+  margin-right: 2rem;
+}
+
+.gallery__image-icon {
+  position: absolute;
 }

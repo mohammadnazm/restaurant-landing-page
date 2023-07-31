@@ -14,6 +14,7 @@ const galleryImages = [
   images.gallery03,
   images.gallery04,
 ]
+
 const Gallery = () => {
   const scrollRef = React.useRef()
 

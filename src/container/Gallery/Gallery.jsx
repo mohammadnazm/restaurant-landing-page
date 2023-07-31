@@ -1,6 +1,10 @@
 import React from "react"
 import { SubHeading } from "../../components"
-import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs"
+import {
+  BsArrowLeftShort,
+  BsArrowRightShort,
+  BsInstagram,
+} from "react-icons/bs"
 import { images } from "../../constants"
 import "./Gallery.css"
 
@@ -42,6 +46,7 @@ const Gallery = () => {
               key={`gallery_image-${index + 1}`}
             >
               <img src={image} alt="gallery" />
+              <BsInstagram className="gallery__image-icon" />
             </div>
           ))}
         </div>

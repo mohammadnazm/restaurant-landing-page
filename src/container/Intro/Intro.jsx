@@ -1,14 +1,15 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs"
 import { meal } from "../../constants"
 import "./Intro.css"
 
 const Intro = () => {
-  const [playVideo, setPlayVideo] = useState(false)
-  const vidRef = React.useRef()
+  const [playVideo, setPlayVideo] = useState(true)
+  const vidRef = useRef()
 
   const handleVideo = () => {
     setPlayVideo(prePlayVideo => !prePlayVideo)
+    console.log(vidRef.current)
 
     if (playVideo) {
       vidRef.current.pause()
@@ -16,6 +17,8 @@ const Intro = () => {
       vidRef.current.play()
     }
   }
+
+  console.log(playVideo)
 
   return (
     <div className="app__video">
@@ -30,8 +33,14 @@ const Intro = () => {
       <div className="app__video-overlay flex__center">
         <div
           className="app__video-overlay_circle flex__center"
-          onClick={handleVideo()}
-        ></div>
+          onClick={() => handleVideo()}
+        >
+          {playVideo ? (
+            <BsPauseFill color="#fff" fontSize={30} />
+          ) : (
+            <BsFillPlayFill color="#fff" fontSize={30} />
+          )}
+        </div>
       </div>
     </div>
   )

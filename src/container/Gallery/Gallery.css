@@ -50,4 +50,9 @@
 
 .gallery__image-icon {
   position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.5rem;
+  transition: 0.5s ease;
+  cursor: pointer;
 }

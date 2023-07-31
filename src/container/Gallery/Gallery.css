@@ -34,4 +34,9 @@
   width: max-content;
   overflow-x: scroll;
   -ms-overflow-style: none;
+  scrolbar-width: none;
+}
+
+.app__gallery-images_container::-webkit-scrollbar {
+  display: none;
 }

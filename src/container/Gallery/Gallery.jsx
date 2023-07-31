@@ -5,6 +5,15 @@ import "./Gallery.css"
 
 const Gallery = () => {
   const scrollRef = React.useRef()
+
+  const scroll = direction => {
+    const { current } = scrollRef
+    if (direction === "left") {
+      current.scrollLeft -= 300
+    } else {
+      current.scrollRight += 300
+    }
+  }
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">

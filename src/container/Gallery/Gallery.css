@@ -1,5 +1,4 @@
 .app__gallery {
-  display: flex;
   flex-direction: row;
 
   background: var(--color-black);
@@ -12,6 +11,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+
   min-width: 500px;
   padding-right: 2rem;
 }
@@ -34,7 +34,7 @@
   width: max-content;
   overflow-x: scroll;
   -ms-overflow-style: none;
-  scrolbar-width: none;
+  scrollbar-width: none;
 }
 
 .app__gallery-images_container::-webkit-scrollbar {
@@ -52,7 +52,7 @@
   position: absolute;
   color: #fff;
   font-size: 2rem;
-  opacity: 0.5rem;
+  opacity: 0;
   transition: 0.5s ease;
   cursor: pointer;
 }
@@ -78,6 +78,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 1rem;
   position: absolute;
   bottom: 5%;
@@ -87,6 +88,58 @@
   color: var(--color-golden);
   font-size: 2rem;
   cursor: pointer;
-  background-color: var(--color-black);
+  background: var(--color-black);
   border-radius: 5px;
+}
+
+.gallery__arrow-icon:hover {
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 2000px) {
+  .app__gallery-content button {
+    margin-top: 2rem;
+  }
+
+  .app__gallery-content {
+    min-width: 1000px;
+    padding-right: 4rem;
+  }
+
+  .app__gallery-images_card {
+    min-width: 400px;
+    height: 547px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__gallery {
+    flex-direction: column;
+  }
+
+  .app__gallery-images {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__gallery {
+    padding: 4rem 0 4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__gallery {
+    padding: 4rem 0 4rem 2rem;
+  }
+
+  .app__gallery-content {
+    min-width: 100%;
+  }
+
+  .app__gallery-images_card {
+    min-width: 240px;
+    height: 320px;
+  }
 }

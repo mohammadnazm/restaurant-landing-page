@@ -1,5 +1,6 @@
 import React from "react"
 import { SubHeading } from "../../components"
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs"
 import "./Gallery.css"
 
 const Gallery = () => {
@@ -19,6 +20,16 @@ const Gallery = () => {
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}></div>
+      </div>
+      <div className="app__gallery-images_arrow">
+        <BsArrowLeftShort
+          className="gallery__arrow-icons"
+          onClick={() => scroll("left")}
+        />
+        <BsArrowRightShort
+          className="gallery__arrow-icons"
+          onClick={() => scroll("right")}
+        />
       </div>
     </div>
   )

@@ -75,8 +75,18 @@
 
 .app__gallery-images_arrows {
   width: 100%;
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem; */
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 5%;
+}
+
+.gallery__arrow-icon {
+  color: var(--color-golden);
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: var(--color-black);
+  border-radius: 5px;
 }

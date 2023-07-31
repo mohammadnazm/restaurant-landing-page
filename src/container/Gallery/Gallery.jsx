@@ -11,6 +11,9 @@ const Gallery = () => (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis
         ipsum turpis elit elit scelerisque egestas mu.
       </p>
+      <button type="button" className="custom__button">
+        View More
+      </button>
     </div>
   </div>
 )

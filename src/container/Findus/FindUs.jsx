@@ -5,7 +5,7 @@ import { images } from "../../constants"
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
-    Find Us
+    <div className="app__wrapper_info"></div>
   </div>
 )
 

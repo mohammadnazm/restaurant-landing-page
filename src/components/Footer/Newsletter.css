@@ -29,3 +29,19 @@
 .app__newsletter-input button {
   width: max-content;
 }
+
+@media screen and (min-width: 2000px) {
+}
+
+@media screen and (min-width: 990px) {
+  .app__newsletter-input {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__newsletter {
+    padding: 2rem 0;
+    border: none;
+  }
+}

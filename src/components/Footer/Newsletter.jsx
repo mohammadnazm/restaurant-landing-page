@@ -10,6 +10,10 @@ const Newsletter = () => (
       <h1 className="headtext__cormorant">Subscribe to our newsletter</h1>
       <p className="p__opensanss">And Never Miss Latest Updates</p>
     </div>
+    <div className="app__newsletter-input flex__center">
+      <input type="email" placeholder="Enter your e-mail address" />
+      <button className="custom__button">Subscribe</button>
+    </div>
   </div>
 )
 

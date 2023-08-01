@@ -2,7 +2,7 @@
 
 Welcome to the Restaurant Landing Page repository! This project showcases a modern and responsive landing page for a restaurant designed to captivate visitors and provide a delightful user experience.
 
-![ezgif com-gif-maker (8)](https://github.com/mohammadnazm/ecommerce-website/assets/63538356/5d4e1e6c-ffae-4d5a-b891-45338f301d1c)
+![ezgif com-gif-maker (9)](https://github.com/mohammadnazm/restaurant-landing-page/assets/63538356/72d14c79-9ef4-4c8b-9bf1-64983a094151)
 
 ## Features
 1. Exquisite Design: Our landing page boasts an elegant and visually appealing design that showcases the restaurant's ambiance and culinary offerings effectively.
